@@ -1,0 +1,9 @@
+Run cmd as adminstrator
+
+Disable command:
+sc config i8042prt start= disabled
+
+Enable command:
+sc config i8042prt start= auto
+
+Reboot system
